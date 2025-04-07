@@ -1,0 +1,107 @@
+# Digital Moog Mavis-Style Synthesizer Project
+
+## Project Overview
+Building a digital synthesizer plugin inspired by the Moog Mavis, implemented first in Python for learning and prototyping, then in C++/JUCE for the final VST/AU plugin.
+
+## Timeline (2 Weeks)
+### Week 1: Python Prototyping & Learning
+- Days 1-2: Environment Setup & Basic Oscillator
+  - Python environment setup
+  - Basic waveform generation (sine, square)
+  - Real-time audio output setup
+  - Waveform visualization
+
+- Days 3-4: Complete Oscillator & Filter
+  - Additional waveforms (saw, triangle)
+  - Basic filter implementation
+  - Understanding frequency cutoff
+  - Real-time parameter control
+
+- Days 5-7: Modulation & Control
+  - LFO implementation
+  - ADSR envelope
+  - Basic MIDI input handling
+  - Module integration
+
+### Week 2: C++ Implementation & Plugin Development
+- Days 8-10: JUCE Setup & Core DSP
+  - JUCE framework setup
+  - Port Python DSP to C++
+  - Optimize real-time performance
+
+- Days 11-14: Plugin UI & Refinement
+  - Basic plugin UI implementation
+  - Virtual patch cable system
+  - Parameter automation
+  - Testing & debugging
+
+## Development Environment
+### Python Phase
+- Python 3.10+
+- Dependencies:
+  - numpy: for efficient array operations
+  - sounddevice: for real-time audio
+  - matplotlib: for waveform visualization
+  - pytest: for unit testing
+
+### C++ Phase
+- JUCE framework
+- C++17
+- Xcode (for macOS development)
+
+## Module Breakdown
+
+### 1. VCO (Voltage Controlled Oscillator)
+- Basic waveform generation
+- Frequency control
+- Anti-aliasing implementation
+- Multiple waveform outputs
+
+### 2. VCF (Voltage Controlled Filter)
+- Low-pass filter implementation
+- Cutoff frequency control
+- Resonance control
+
+### 3. VCA (Voltage Controlled Amplifier)
+- Amplitude modulation
+- Basic gain control
+
+### 4. LFO (Low Frequency Oscillator)
+- Low-frequency waveform generation
+- Modulation routing
+
+### 5. ADSR Envelope
+- Attack, Decay, Sustain, Release stages
+- Envelope triggering
+- Multiple envelope destinations
+
+## Testing Strategy
+- Real-time audio testing
+- Visual waveform verification
+- Unit tests for core DSP functions
+- Plugin validation in DAW environment
+
+## UI/UX Goals
+- Clean, minimalist design (Dieter Rams inspired)
+- Virtual patch cables
+- Clear visual feedback
+- Intuitive control layout
+
+## Version Control
+- GitHub repository
+- Regular commits with clear messages
+- Feature branch workflow
+
+## Learning Objectives
+- Understanding basic audio DSP concepts
+- Real-time audio programming
+- Plugin development workflow
+- Modern C++ practices
+- UI/UX design for audio plugins
+
+## Success Criteria
+- Plugin runs stable in Logic Pro/Ableton
+- All core Moog Mavis features implemented
+- Clean, professional UI
+- Efficient CPU usage
+- Clear, maintainable code structure 
