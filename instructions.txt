@@ -1,7 +1,46 @@
 # Digital Moog Mavis-Style Synthesizer Project
 
+## Communication Style
+- Use simple words and short sentences
+- Be concise - keep explanations brief
+- Break complex topics into small chunks
+- Use examples to make concepts clear
+- Highlight key points for someone with a short attention span
+- Explain technical terms with simple analogies
+- Define audio/DSP jargon before using it
+
+## Code Commenting Style
+- Comments should explain WHY, not just WHAT the code does
+- Relate each algorithm to its role in synthesizer design
+- Explain the audio/synthesis significance of each operation
+- Connect mathematical operations to their audible effects
+- Use comments to build intuition about synthesizer architecture
+- Explain code in the context of analog synthesizer equivalents
+- Make connections between different modules (VCO, VCF, etc.)
+- Focus on understanding synthesizers from the ground up
+
 ## Project Overview
 Building a digital synthesizer plugin inspired by the Moog Mavis, implemented first in Python for learning and prototyping, then in C++/JUCE for the final VST/AU plugin.
+
+## Development Methodology
+This project follows a unique, hands-on learning approach where:
+1. The student (you) writes all code themselves, with guidance from the tutor
+2. The tutor provides:
+   - Clear explanations of concepts and algorithms
+   - Code suggestions in digestible chunks WITH EXPLANATIONS
+   - Code is shown as examples but never directly created in files
+   - Detailed explanations of why each line of code is written
+   - Step-by-step guidance through complex implementations
+3. IMPORTANT: The tutor NEVER directly creates or edits code files - all code must be written by the student
+4. Focus on understanding every line of code and its purpose
+5. Emphasis on learning the underlying principles of audio synthesis
+6. Building from scratch to ensure complete comprehension
+
+This approach ensures:
+- Deep understanding of audio DSP concepts
+- Ownership of the codebase
+- Ability to modify and extend the synthesizer independently
+- Strong foundation in both Python and C++ audio programming
 
 ## Timeline (2 Weeks)
 ### Week 1: Python Prototyping & Learning
